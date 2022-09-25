@@ -1,64 +1,58 @@
-/*Add padding and margin to space out the page.
-Make the font larger too.*/
-body{
-	font-family: 'Verdana','Arial';
-	margin-top: 25px;
-	margin-left: 25px;
-	margin-right: 25px;
+body {
+    font-family: 'Verdana', 'Arial';
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
-/*Make the h1 heading bigger with a bold font*/
-h1{
-	font-size: 48px;
-	padding: 15px;
-	color:blue;
+h1 {
+    font-size: 48px;
+    color: blue;
+    padding: 15px;
 }
 
-h2{
-	font-size: 32px;
+h2 {
+    font-size: 32px;
 }
 
-p{
-	font-size: :24px;
-	padding-bottom: 15px;
-	padding-left: 15px;
+p {
+    font-size: 24px;
+    padding-bottom: 15px;
+    padding-left: 15px;
 }
 
-/*Style the images*/
-img{
-	  width:350px;
-    border: 10px dashed black;
+img {
+    width: 350px;
+    border: dashed 10px black;
 }
 
-div{
-	min-height: 100px；
-	height: auto;
-	padding: 20px;
-	border: 3px solid white;
+div {
+    min-height: 100px;
+    padding: 20px;
+    border: solid white 3px;
 }
 
-.red{
-	background: #EF7777;
-	text-align: right;
-	margin-left: 50px;
-	border-left: 10px;
-	border-bottom: 3px;
+.red {
+    background-color: #EF5555;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 3px;
+    border-left: 10px;
 }
 
-.blue{
-	background: #5CD4E6;
-	text-align: left;
-	margin-right: 50px;
-	border-right: 10px;
-	border-bottom: 3px;
+.blue {
+    background-color: #66CCFF;
+    text-align: left;
+    margin-right: 50px;
+    border-bottom: 3px;
+    border-right: 10px;
 }
 
-span{
-	text-decoration: underline;
-	text-transform: uppercase;
+span {
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 
-footer{
-	background: linear-gradient(#000000, #0000ff 25%, #0066ff 70%, #000000 100%);;
+footer {
+    background: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000 100%);
 }
-/*Added this so the links stay the same color*/
